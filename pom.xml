@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <!--
   <distributionManagement>
     <repository>
         <id>central</id>
@@ -27,7 +28,7 @@
     </snapshotRepository>
 </distributionManagement>
 </distributionManagement>
-  
+  -->
   <build>
     <finalName>dev-pro</finalName>
   </build>
