@@ -7,7 +7,7 @@
   </formats>
   <fileSets>
     <fileSet>
-      <directory>/var/lib/jenkins/workspace/maven-tar-build/target/</directory>
+      <directory>/var/lib/jenkins/workspace/ci-job/target/</directory>
       <outputDirectory>./</outputDirectory>
       <includes>
         <include>dev-pro.war</include>
