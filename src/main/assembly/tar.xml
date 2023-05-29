@@ -7,8 +7,8 @@
   </formats>
   <fileSets>
     <fileSet>
-      <directory>/var/lib/jenkins/workspace/ci-job/target/</directory>
-      <outputDirectory>/var/lib/jenkins/workspace/ci-job/</outputDirectory>
+      <directory>/var/lib/jenkins/workspace/ci-job/</directory>
+      <outputDirectory>/var/lib/jenkins/workspace/ci-job/target/</outputDirectory>
       <includes>
         <include>dev-pro.war</include>
       </includes>
