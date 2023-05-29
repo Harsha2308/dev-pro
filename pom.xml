@@ -25,8 +25,7 @@
           <warName>dev-pro</warName>
         </configuration>
       </plugin>
-    </plugins>
-    <plugin>
+      <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-assembly-plugin</artifactId>
       <version>3.4.0</version>
@@ -38,7 +37,7 @@
             <goal>single</goal>
           </goals>
           <configuration>
-            <finalName>webapp</finalName>
+            <finalName>dev-pro</finalName>
             <appendAssemblyId>false</appendAssemblyId>
             <descriptors>
               <descriptor>src/main/assembly/tar.xml</descriptor>
@@ -47,5 +46,6 @@
         </execution>
       </executions>
     </plugin>
-  </build>
+    </plugins>
+   </build>
 </project>
